@@ -1,0 +1,14 @@
+This is the open source hardware reference design for the WaterColorBot kit, released by
+Evil Mad Science LLC, 2013.  http://www.evilmadscientist.com/
+
+This design is licensed under the TAPR OHL, http://tapr.org/ohl.html
+and under the Creative Commons Attribution-Sharealike license CC-BY-SA.
+You may use it under the terms of either license.
+
+
+The names "WaterColorBot," "Evil Mad Scientist," and "Evil Mad Scientist Laboratories" are 
+trademarks of Evil Mad Science LLC.
+
+You can make, modify, and sell hardware based on this reference design, but please respect
+our trademarks.  If you make and sell hardware based on this design, it is your responsibility
+to clearly identify who made it-- for simple reasons of liability and customer support.

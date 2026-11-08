@@ -1,0 +1,137 @@
+[
+  {
+    "path": "hardware/reference-designs/wcb_refdesign_v1.zip",
+    "source_url": "https://shop.emscdn.com/wiki/watercolor/general/wcb_refdesign.zip",
+    "final_url": "https://shop.emscdn.com/wiki/watercolor/general/wcb_refdesign.zip",
+    "bytes": 135382,
+    "sha256": "d90cf99d39e0eb746eabc70fd090df98f1c7a87eac54a58e3217f3e147208dca",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:26:15.583065+00:00"
+  },
+  {
+    "path": "hardware/reference-designs/WCBv2_r1.zip",
+    "source_url": "https://shop.emscdn.com/wiki/watercolor/general/WCBv2_r1.zip",
+    "final_url": "https://shop.emscdn.com/wiki/watercolor/general/WCBv2_r1.zip",
+    "bytes": 2253802,
+    "sha256": "fe6d723ae621a26c3d80e9d9453c61846e7cfc346d54baddba10391654feb694",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:26:16.134132+00:00"
+  },
+  {
+    "path": "hardware/guides/WCB_QuickStart_2A_Linear.pdf",
+    "source_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_2ALinear.pdf",
+    "final_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_2ALinear.pdf",
+    "bytes": 3815903,
+    "sha256": "1e50fb30f8223a6dc66e87d50ed2b4dd76249d3bef58cabd95012cde2efcbe51",
+    "content_type": "application/pdf",
+    "retrieved_utc": "2026-11-08T23:26:16.756047+00:00"
+  },
+  {
+    "path": "hardware/guides/WCB_QuickStart_1_5_C_Linear.pdf",
+    "source_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_C_Linear.pdf",
+    "final_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_C_Linear.pdf",
+    "bytes": 9972101,
+    "sha256": "ba4030ac9a047621870f695869e9778995512a06235cf3ebb1204d25b7295c28",
+    "content_type": "application/pdf",
+    "retrieved_utc": "2026-11-08T23:26:17.533496+00:00"
+  },
+  {
+    "path": "hardware/guides/WCB_QuickStart_1_0_B_Linear.pdf",
+    "source_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_B_Linear.pdf",
+    "final_url": "https://shop.emscdn.com/wiki/watercolor/docs/WCB_QuickStart_B_Linear.pdf",
+    "bytes": 6055880,
+    "sha256": "158c23990de3b30d384a4b8049422d2f62669843b74b29c28f9234259c53d1fe",
+    "content_type": "application/pdf",
+    "retrieved_utc": "2026-11-08T23:26:18.272421+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot",
+    "bytes": 23741,
+    "sha256": "85e4957dbeeaa2a4dc06d21d678f5a87e6d81e4c182c3b60fa121ec3999dd659",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:18.625079+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Reference_Design.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Reference_Design",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Reference_Design",
+    "bytes": 19482,
+    "sha256": "67e1498c36800c22b3563bfd59cae8f52ee96aa4cf49e2e7ce9f4b4d451ce267",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:18.965455+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Software.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Software",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Software",
+    "bytes": 19486,
+    "sha256": "14d79be33ed585d8500df24848f184f5447813317fd814177ec80f0c0c3d6faf",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:19.590334+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/Inkscape_and_WaterColorBot.html",
+    "source_url": "https://wiki.evilmadscientist.com/Inkscape_and_WaterColorBot",
+    "final_url": "https://wiki.evilmadscientist.com/Inkscape_and_WaterColorBot",
+    "bytes": 36602,
+    "sha256": "6b53f767848d26a82de4ae9ae8c0d1d47e1ea1c50dc4f6ec7056df361c932f68",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:19.934266+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/RoboPaint.html",
+    "source_url": "https://wiki.evilmadscientist.com/RoboPaint",
+    "final_url": "https://wiki.evilmadscientist.com/RoboPaint",
+    "bytes": 50142,
+    "sha256": "3cb785b240e738c86897372cb81f8b4642e296e844db91949582a93719ad4f21",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:20.418318+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/RoboPaint_RT.html",
+    "source_url": "https://wiki.evilmadscientist.com/RoboPaint_RT",
+    "final_url": "https://wiki.evilmadscientist.com/RoboPaint_RT",
+    "bytes": 28468,
+    "sha256": "7cfb4958c44a63d434a419953bbe665550a5079c04af9aaa18b9f89206d5734c",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:20.778646+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Troubleshooting.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Troubleshooting",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Troubleshooting",
+    "bytes": 65496,
+    "sha256": "637bad13bcc96271422632ab9c7cadc476a8e685c7509f0e69678ff66d905287",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:21.203009+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Paper.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Paper",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Paper",
+    "bytes": 17812,
+    "sha256": "83a545ead14b4e653367748e6adfc4b00e17e8db6a5db7527a2f2b459b00d65d",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:21.527335+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Paints.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Paints",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Paints",
+    "bytes": 17235,
+    "sha256": "2ae02ab493144a562d8efb8de94ed5c7ba030b572e3cf91885a702cee37de42c",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:21.864249+00:00"
+  },
+  {
+    "path": "docs/wiki-snapshots/WaterColorBot_Writing_Implements.html",
+    "source_url": "https://wiki.evilmadscientist.com/WaterColorBot_Writing_Implements",
+    "final_url": "https://wiki.evilmadscientist.com/WaterColorBot_Writing_Implements",
+    "bytes": 17541,
+    "sha256": "f2c85a4b9fd6e46d4497c4766bf6255ce7bba447e2f6f1ce02e8a21733976450",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-11-08T23:26:22.199283+00:00"
+  }
+]

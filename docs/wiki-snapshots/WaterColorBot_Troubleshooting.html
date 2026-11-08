@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>WaterColorBot Troubleshooting - Evil Mad Scientist Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"WaterColorBot_Troubleshooting","wgTitle":"WaterColorBot Troubleshooting","wgCurRevisionId":2361,"wgRevisionId":2361,"wgArticleId":254,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"WaterColorBot_Troubleshooting","wgRelevantArticleId":254,"wgRequestId":"3369614650bdfcde409ea56f","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1txach7",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.28.2"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit"/>
+<link rel="edit" title="Edit" href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Evil Mad Scientist Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.evilmadscientist.com/api.php?action=rsd"/>
+<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html"/>
+<link rel="alternate" type="application/atom+xml" title="Evil Mad Scientist Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-WaterColorBot_Troubleshooting rootpage-WaterColorBot_Troubleshooting skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">WaterColorBot Troubleshooting</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Evil Mad Scientist Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="noprint" style="float:center; border:2px solid DimGray;background-color:WhiteSmoke;padding:5px;">
+<table style="float:center;background-color:WhiteSmoke; padding:5px;">
+<tr>
+<td> <img src="http://shop.emscdn.com/wiki/watercolor/general/wcb_tn.jpg" alt="wcb_tn.jpg"/>
+</td>
+<td>
+</td>
+<td> This wiki page is part of the documentation for the WaterColorBot.  <br /><a href="/WaterColorBot" title="WaterColorBot">Click here</a> to return to the <a href="/WaterColorBot" title="WaterColorBot">WaterColorBot overview</a>.
+</td></tr></table>
+</div>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#WaterColorBot:_Hints_for_troubleshooting"><span class="tocnumber">1</span> <span class="toctext">WaterColorBot: Hints for troubleshooting</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Computer_cannot_find_WaterColorBot"><span class="tocnumber">2</span> <span class="toctext">Computer cannot find WaterColorBot</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Motors_.22cogging.22_.28skipping_steps.29"><span class="tocnumber">3</span> <span class="toctext">Motors "cogging" (skipping steps)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#What_to_do_when_cogging_happens"><span class="tocnumber">3.1</span> <span class="toctext">What to do when cogging happens</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Possible_causes_of_cogging"><span class="tocnumber">3.2</span> <span class="toctext">Possible causes of cogging</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#You_drove_into_a_wall"><span class="tocnumber">3.2.1</span> <span class="toctext">You drove into a wall</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#There_is_too_much_friction"><span class="tocnumber">3.2.2</span> <span class="toctext">There is too much friction</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#There_is_too_much_slack_in_the_cord"><span class="tocnumber">3.2.3</span> <span class="toctext">There is too much slack in the cord</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#You_are_driving_too_fast"><span class="tocnumber">3.2.4</span> <span class="toctext">You are driving too fast</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Motors_are_too_weak"><span class="tocnumber">3.2.5</span> <span class="toctext">Motors are too weak</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Cord_falling_off_of_bearings"><span class="tocnumber">4</span> <span class="toctext">Cord falling off of bearings</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Retensioning_the_cord"><span class="tocnumber">4.1</span> <span class="toctext">Retensioning the cord</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Motors_do_not_move_at_all"><span class="tocnumber">5</span> <span class="toctext">Motors do not move at all</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Issues_arising_from_current_setpoint_on_EBB"><span class="tocnumber">6</span> <span class="toctext">Issues arising from current setpoint on EBB</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#How_to_adjust_the_motor_current"><span class="tocnumber">6.1</span> <span class="toctext">How to adjust the motor current</span></a>
+<ul>
+<li class="toclevel-3 tocsection-16"><a href="#Adjusting_current_while_painting"><span class="tocnumber">6.1.1</span> <span class="toctext">Adjusting current while painting</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Adjusting_current_while_parked"><span class="tocnumber">6.1.2</span> <span class="toctext">Adjusting current while parked</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Advice_for_adjusting_the_motor_current"><span class="tocnumber">6.1.3</span> <span class="toctext">Advice for adjusting the motor current</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-19"><a href="#Motors_get_hot"><span class="tocnumber">6.2</span> <span class="toctext">Motors get hot</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Motors_make_funny_noises"><span class="tocnumber">6.3</span> <span class="toctext">Motors make funny noises</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Motors_are_apparently_too_weak"><span class="tocnumber">6.4</span> <span class="toctext">Motors are apparently too weak</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#Servo_motor_.28Brush-lift_motor.29_makes_a_buzzing_noise"><span class="tocnumber">7</span> <span class="toctext">Servo motor (Brush-lift motor) makes a buzzing noise</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Corrosion_on_rods"><span class="tocnumber">8</span> <span class="toctext">Corrosion on rods</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Painting_quality_issues"><span class="tocnumber">9</span> <span class="toctext">Painting quality issues</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#Paintings_are_sloppy:_Poor_reproducibility"><span class="tocnumber">9.1</span> <span class="toctext">Paintings are sloppy: Poor reproducibility</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Paintings_are_sloppy:_Too_much_water"><span class="tocnumber">9.2</span> <span class="toctext">Paintings are sloppy: Too much water</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Painted_image_is_distorted_at_edges"><span class="tocnumber">9.3</span> <span class="toctext">Painted image is distorted at edges</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Paper_is_warping_when_it_gets_wet"><span class="tocnumber">9.4</span> <span class="toctext">Paper is warping when it gets wet</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#Spare_and_replacement_parts"><span class="tocnumber">10</span> <span class="toctext">Spare and replacement parts</span></a>
+<ul>
+<li class="toclevel-2 tocsection-30"><a href="#Something_broke.21_Help.21"><span class="tocnumber">10.1</span> <span class="toctext">Something broke!  Help!</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Purchasing_spare_parts_.28for_replacement_or_for_hacking.29"><span class="tocnumber">10.2</span> <span class="toctext">Purchasing spare parts (for replacement or for hacking)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-32"><a href="#Spills"><span class="tocnumber">11</span> <span class="toctext">Spills</span></a>
+<ul>
+<li class="toclevel-2 tocsection-33"><a href="#I_spilled_paint.2Fdirty_water_on_my_spoilboard.2C_now_it.27s_covered_with_ink.21"><span class="tocnumber">11.1</span> <span class="toctext">I spilled paint/dirty water on my spoilboard, now it's covered with ink!</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#I_spilled_paint.2Fdirty_water_on_my_WaterColorBot_Frame.2C_now_it.27s_blue.21"><span class="tocnumber">11.2</span> <span class="toctext">I spilled paint/dirty water on my WaterColorBot Frame, now it's blue!</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#I_spilled_water_on_my_EBB.21"><span class="tocnumber">11.3</span> <span class="toctext">I spilled water on my EBB!</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#I_spilled_water_on_my_motors.21"><span class="tocnumber">11.4</span> <span class="toctext">I spilled water on my motors!</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-37"><a href="#When_Robots_Attack"><span class="tocnumber">12</span> <span class="toctext">When Robots Attack</span></a>
+<ul>
+<li class="toclevel-2 tocsection-38"><a href="#Runaway_WaterColorBot_.28on_its_way_to_destroy_Tokyo....29"><span class="tocnumber">12.1</span> <span class="toctext">Runaway WaterColorBot (on its way to destroy Tokyo...)</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#I.27m_concerned_about_using_the_WaterColorBot_around_young_children"><span class="tocnumber">12.2</span> <span class="toctext">I'm concerned about using the WaterColorBot around young children</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-40"><a href="#Media_Issues"><span class="tocnumber">13</span> <span class="toctext">Media Issues</span></a>
+<ul>
+<li class="toclevel-2 tocsection-41"><a href="#Can.27t_find_exact_replacement_paints"><span class="tocnumber">13.1</span> <span class="toctext">Can't find exact replacement paints</span></a></li>
+<li class="toclevel-2 tocsection-42"><a href="#Can.27t_find_exact_replacement_paper"><span class="tocnumber">13.2</span> <span class="toctext">Can't find exact replacement paper</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-43"><a href="#International_Issues"><span class="tocnumber">14</span> <span class="toctext">International Issues</span></a>
+<ul>
+<li class="toclevel-2 tocsection-44"><a href="#Can_the_power_supply_run_on_Europe_voltage.3F"><span class="tocnumber">14.1</span> <span class="toctext">Can the power supply run on Europe voltage?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-45"><a href="#New_sections.2C_yet_to_be_added"><span class="tocnumber">15</span> <span class="toctext">New sections, yet to be added</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="WaterColorBot:_Hints_for_troubleshooting">WaterColorBot: Hints for troubleshooting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=1" title="Edit section: WaterColorBot: Hints for troubleshooting">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>This page contains some collected tips and hints for making happy WaterColorBots, addressing known things that can go wrong.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Computer_cannot_find_WaterColorBot">Computer cannot find WaterColorBot</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=2" title="Edit section: Computer cannot find WaterColorBot">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Under certain circumstances, your computer may not be able to connect to ("see") the WaterColorBot.  
+</p><p>If this is the case,
+</p>
+<ul><li> In RoboPaint, you will get the message: "Couldn't connect! - Port not found. What do you want to do?"  </li>
+<li> In RoboPaint RT, you will get the message "WaterColorBot not found. Entering Simulation Mode"</li>
+<li> In Inkscape, you will get the message "I couldn't find the WaterColorBot.&#160;:("</li></ul>
+<p><br />
+You will get this kind of message when any of the following are true
+</p>
+<ul><li> The WaterColorBot is not physically connected to your computer.  The most common cause is that the WaterColorBot is not actually connected to your computer by USB.</li>
+<li> Your computer is already using the USB port.  For example, if another application (e.g., Inkscape, RoboPaint, or RoboPaint RT) is already attempting to communicate with the WaterColorBot. </li>
+<li> You have software (e.g., security software) on your computer that is preventing you from accessing the USB port</li>
+<li> You are using Windows, and have not installed the driver for the WaterColorBot.  (If you have installed RoboPaint on your computer, you have already installed the driver.)</li>
+<li> You are using Linux, and your computer automatically restricts user access to the USB port. </li></ul>
+<p>In some circumstances, you will get one of these messages on your first attempt to connect, even when everything is seemingly connected correctly; always try again at least once if your computer cannot find the WaterColorBot.
+</p>
+<ul><li> In RoboPaint, you have the option to "Try to reconnect"  </li>
+<li> In Inkscape (with the Control WaterColorBot extension), you have the option to click "Apply" again</li>
+<li> In RoboPaint RT, there is no option to reconnect; quit the program and re-open it.</li></ul>
+<p><br />
+If you find that your computer is consistently unable to connect, then you may have a more serious configuration error.  Consider posting in our <a rel="nofollow" class="external text" href="http://forum.evilmadscientist.com/categories/watercolorbot">support forums</a> for help.
+</p>
+<h2><span class="mw-headline" id="Motors_.22cogging.22_.28skipping_steps.29">Motors "cogging" (skipping steps)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=3" title="Edit section: Motors &quot;cogging&quot; (skipping steps)">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are a bunch of different things that need to work correctly for the WaterColorBot to move
+the brush smoothly from point A to point B.  When the motors can't move the brush-- because it's stuck for any reason --it will often
+cause one or both of the motors to make a "cogging" noise.  
+</p><p>So, if you find that your WaterColorBot is...
+</p>
+<ul><li> Making a sound like <i>Cah-Chunk-Chunk-Chunk-Chunk-Chunk-Chunk!</i></li>
+<li> Losing position while painting, or</li>
+<li> Running into the walls,</li></ul>
+<p>then it is likely that the motors are "cogging" that is, skipping steps on the motors.  With one notable exception (forgetting to begin with the carriage in the upper-left START corner), this will <i>never</i> happen on a properly tuned WaterColorBot. Unfortunately, there are a few different things that can go wrong and cause this, particularly on a freshly-built WaterColorBot.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="What_to_do_when_cogging_happens">What to do when cogging happens</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=4" title="Edit section: What to do when cogging happens">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If the WaterColorBot begins cogging-- for example running into the wall while painting --the first thing that you should do is to stop the plot, so you can see what's going wrong. 
+</p><p><br />
+The way to halt a plot in progress depends on the environment that you are painting from.  
+</p>
+<ul><li> In RoboPaint RT, press the <b>PAUSE</b> button to halt painting. </li>
+<li> In RoboPaint, press the <b>PAUSE</b> button to halt painting. </li>
+<li> When painting from Inkscape, press the <b>PRG</b> button on the EBB to pause a plot in progress.</li></ul>
+<p><br />
+No matter what environment you are plotting from, any of the following actions will also stop a plot in progress:
+</p>
+<ul><li> Disconnecting power from the EBB by pulling out the cable from the power supply</li>
+<li> Disconnecting power from the EBB by unplugging the power supply from the wall</li>
+<li> Unplugging the USB cable from the EBB</li>
+<li> Pressing the <b>RST</b> (reset) button on the EBB.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Possible_causes_of_cogging">Possible causes of cogging</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=5" title="Edit section: Possible causes of cogging">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Cogging happens when the motors want to turn, but are prevented from doing so for some reason.   Here are some of the possible reasons that the motors might not be able to turn:
+</p><p><br />
+</p>
+<h4><span class="mw-headline" id="You_drove_into_a_wall">You drove into a wall</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=6" title="Edit section: You drove into a wall">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>That the motors cogs and "skip steps" when the WaterColorBot carriage is driven into one of its side walls is a safety feature.  (When industrial robots come to something in their way and <i>don't stop</i>, things can go very wrong.)
+</p>
+<ul><li> If a newly built WaterColorBot always drives into the wall when you start painting, it is possible that one of the motors is wired backwards, which would cause the motors to drive it the wrong way.  Check the wiring. </li>
+<li> The most common cause of driving into the wall is not starting in the Home (Upper left, "START") corner.  WaterColorBot software assumes that the carriage is at the home corner when you start your painting, and acts accordingly-- and if it wasn't there to begin with, it could end up hitting a wall.  </li>
+<li> Another possible cause of driving into the wall is that the WaterColorBot has lost track of where it is.  That can happen if the motors skip steps (cogs) while running and you don't notice.  </li></ul>
+<p><br />
+</p>
+<h4><span class="mw-headline" id="There_is_too_much_friction">There is too much friction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=7" title="Edit section: There is too much friction">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The motors can only exert a certain amount of force.  If that force is insufficient to overcome the friction from the spectra cord and moving the carriage, then the motors will not be able to move.  
+</p><p>To check the level of friction, raise the brush and turn off the motors, so that you can turn the winches by hand.  When you try to turn the winch, it should turn easily, and move the carriage when you do so.   If it does not turn easily over the full range of travel, then you need to figure out why.
+</p><p>The most common cause of high friction is if the two steel rods are not square to the chassis.  You can check this by moving the carriage to the home corner, and making sure that all four rod-end sliders line up evenly against their stops.
+</p><p>A second thing to check is to make sure that the Spectra cord is routed through the grooves on the three ball bearings. 
+</p><p>Third, make sure that the cord is wound "neatly" around the winches. If the cord <i>wraps over itself</i> on the winch, it can prevent the winch from turning. If you find that this the cord is overlapped and preventing the winch from turning, we would recommend fully un-lacing the cord back to the winch, and winding it again, paying careful attention to the follow the winding procedure from the manual. (From experience, we have learned that it takes a few minutes to re-wind from scratch, but you can spend hours trying unsuccessfully to correct a knot-tying wrap problem.)
+</p><p>Finally, check to make sure that you have not <i>over-tightened</i> the spectra cord.  If you pluck the string, and it sounds like any musical instrument other than a string bass, you probably have too much tension.
+</p>
+<h4><span class="mw-headline" id="There_is_too_much_slack_in_the_cord">There is too much slack in the cord</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=8" title="Edit section: There is too much slack in the cord">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>If there is too much slack in the spectra cord, the cord can get caught under itself at the winches, effectively tying a little knot, and cause the motors to cog.  You may need to tighten the cord to correct the issue.
+</p><p><br /> 
+</p>
+<h4><span class="mw-headline" id="You_are_driving_too_fast">You are driving too fast</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=9" title="Edit section: You are driving too fast">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sometimes, the best solution is to run the WaterColorBot a little slower.  In RoboPaint and in Inkscape, there are speed controls that let you set how fast the motors move.  Speed values of around 70% are typically a good balance between painting speed and reliability.    In RoboPaint RT, you can press the numbers 1 through 9 on your keyboard to control the speed.  (The speed value will only be remembered until you quit the program.)
+</p><p><br />
+</p>
+<h4><span class="mw-headline" id="Motors_are_too_weak">Motors are too weak</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=10" title="Edit section: Motors are too weak">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>If the motors are too weak, from having the motor current on the EBB set too low, the motors can cog as a result.  See <a href="/WaterColorBot_Troubleshooting#Motors_are_apparently_too_weak" title="WaterColorBot Troubleshooting">Motors are apparently too weak</a> below.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Cord_falling_off_of_bearings">Cord falling off of bearings</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=11" title="Edit section: Cord falling off of bearings">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>If the Spectra cord falls out of the bearings, then the WaterColorBot will not run smoothly.  This can only happen if the cord is far too loose. It can be corrected by retensioning the cord.  
+</p><p>We have typically found that the cord can become loose after the first 1-3 hours of using the WaterColorBot (as the cord settles into shape), and that it is generally necessary to retension it once. After you retension it once, it will likely not need any any tension adjustments for at least the next few months, even if you use the WaterColorBot regularly. 
+</p>
+<h3><span class="mw-headline" id="Retensioning_the_cord">Retensioning the cord</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=12" title="Edit section: Retensioning the cord">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Undo the screws that hold down the loose cord end on the top of the relevant winch.  Square up the rod ends to the frame (as in Step 20 of the assembly instructions), pull the slack out of the cord, and tie up the cord as you did the first time that you wound them.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Motors_do_not_move_at_all">Motors do not move at all</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=13" title="Edit section: Motors do not move at all">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Make sure that both the USB cable and the power supply are plugged in.  If the USB cable is plugged in but power is not, the WaterColorBot will be responsive to your computer, but the motors <i>will not move</i>.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Issues_arising_from_current_setpoint_on_EBB">Issues arising from current setpoint on EBB</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=14" title="Edit section: Issues arising from current setpoint on EBB">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The current sent to the two stepper motors (Motor 1 and Motor 2) is set by the current adjustment pot on the EBB.     If your stepper motors are weak, make high-pitch whining noises, exhibit jittery behavior, or produce inconsistent step sizes, you probably need to adjust the current setting on the EBB.  We would recommend *NOT* adjusting the motor current until you are sure that the WaterColorBot is otherwise set up correctly-- such that turning the winches by hand produces smooth, clean movement on each axis.
+</p><p>Note that the current setpoint does not affect the brush-lift (servo motor).
+</p><p><br />
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="How_to_adjust_the_motor_current">How to adjust the motor current</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=15" title="Edit section: How to adjust the motor current">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The pot (abbreviation for <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Potentiometer">potentiometer</a>) is a tiny, flat adjustment "knob" on the EBB, that you can adjust by inserting a small screwdriver and turning it. The location on the board is either labeled "CUR ADJ" or "CURRENT ADJ" depending on the batch of particular EBBs that yours came from. The total range of motion on the pot is about 2/3 of a revolution, and turning it over the full range will give the WaterColorBot both too little current to run the motors, and too much current, such that the motors become jerky and noisy.  Depending on your particular board, it may be that turning your pot clockwise <i>or</i> counterclockwise may be the direction that increases current.  (It is usually obvious, once you turn start adjusting it, which is increasing or decreasing current.)
+</p><p><br />
+</p>
+<h4><span class="mw-headline" id="Adjusting_current_while_painting">Adjusting current while painting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=16" title="Edit section: Adjusting current while painting">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The most common procedure to adjust the current is to first remove the paintbrush and then to begin painting (for example, one of the examples in RoboPaint).  While the WaterColorBot is trying to paint, insert the screwdriver into the pot, and gently adjust it one way or the other until the motors are moving smoothly and quietly.   
+</p><p>You may find that the WaterColorBot acts differently when the screwdriver is inserted or is not inserted into the pot, so remove your screwdriver from the pot after adjusting current to make sure that it performs as desired.
+</p>
+<h4><span class="mw-headline" id="Adjusting_current_while_parked">Adjusting current while parked</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=17" title="Edit section: Adjusting current while parked">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Alternately (or if the current is tuned so poorly that you cannot begin painting), you can initially tune the current when not painting.  To do so, first make sure that your motors are enabled (energized).  You can do this by opening up RoboPaint ro RoboPaint RT (both of which turns on the motors when they launch), or by selecting Enable Motors from the Manual tab of Control WaterColorBot in Inkscape.  Once you have done so, turn the potentiometer until the motors provide moderate resistance to turning by hand.
+</p><p>If you happen to have a multimeter handy, you can also monitor the voltage at test point TP3 as you adjust the current.   We would suggest 1.125 V at TP3 as a starting point for further adjustment.
+</p><p><br />
+</p>
+<h4><span class="mw-headline" id="Advice_for_adjusting_the_motor_current">Advice for adjusting the motor current</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=18" title="Edit section: Advice for adjusting the motor current">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>From years of experience with the EBB at Evil Mad Scientist Laboratories, we have found the following:
+</p>
+<ul><li> The current setpoint on any given EBB will be need to be adjusted a maximum of exactly one times total in its lifetime.  </li></ul>
+<p><br />
+Additionally, when everything is working correctly, you will find that: 
+</p>
+<ul><li> A properly tuned motor may get warm, but will not get too hot to touch.</li>
+<li> A properly tuned motor sounds musical when it runs, making clean tones, without grinding or whistling noises.</li>
+<li> A properly tuned motor paints smoothly and (apparently) effortlessly.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Motors_get_hot">Motors get hot</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=19" title="Edit section: Motors get hot">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Under use, the motors will typically get warm, but they should not get too hot to touch.  If they do, your motor current is set too high.  Adjust the current setpoint on the EBB.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Motors_make_funny_noises">Motors make funny noises</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=20" title="Edit section: Motors make funny noises">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Does it sound like chunk-chunk-chunk?  If so, your motors are cogging.  Read the section about that earlier.
+</p><p>Does it sound like an angry whistling/screaming/hissing creature?  If so, your motor current is set too high.  Adjust the current setpoint on the EBB.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Motors_are_apparently_too_weak">Motors are apparently too weak</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=21" title="Edit section: Motors are apparently too weak">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If all of the following are true:
+</p>
+<ul><li> Your motors are not generating enough force to move the carriage</li>
+<li> You can easily overcome the motor force, turning the winches by hand</li>
+<li> The motors are not getting hot</li></ul>
+<p>Then it is likely that the motor current setpoint is too low. Adjust the current setpoint on the EBB.
+</p>
+<h2><span class="mw-headline" id="Servo_motor_.28Brush-lift_motor.29_makes_a_buzzing_noise">Servo motor (Brush-lift motor) makes a buzzing noise</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=22" title="Edit section: Servo motor (Brush-lift motor) makes a buzzing noise">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The servo motor can sometimes make a mild buzzing noise.  This is usually not harmful, but if it sounds loud and angry, it may be the case that you are operating outside the area that it is comfortable to operate in.  In Inkscape and RoboPaint, you can use the preferences to adjust the servo endpoints.  If you go higher (or lower) than the servo can move, it will stress the servo motor, and make noise doing so. 
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Corrosion_on_rods">Corrosion on rods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=23" title="Edit section: Corrosion on rods">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The two rods that go through the carriage are made from a type of tool steel that can rust. They normally have a very thin, protective layer of oil on their surfaces. However, that layer is easily removed or disturbed, and a small amount of surface corrosion is (not beautiful but) normal and should not interfere with operation.   If there is an excess of corrosion, follow the instructions below to clean and protect the rods.  In case of very severe corrosion, such that the rods do not move smoothly through the carriage even after cleaning, the rods may need to be replaced.  Note that the steel rods and linear bushings <i>do not</i> require lubrication; you should only add oil (following the directions below) if you have found corrosion to be an issue in your environment.
+</p><p><br />
+</p>
+<ul><li> To remove the rods from the WaterColorBot:  Manually, or using RoboPaint RT, move the carriage to the middle of the frame.  Starting with the horizontal rod, lift one rod-end slider out of its groove, and pop the rod out of the slider.  Pull the opposite end out of its slider as well, and slide the rod out.  Repeat for the other rod.</li></ul>
+<ul><li> To clean and protect the rods: With a kitchen sink scrubber sponge, steel wool, or an extra-fine abrasive pad (a "green scrubber pad"), remove the external corrosion. (Please do not use the sandpaper that came with the kit; it is too coarse.)  You may want to do this with soap and warm water under a running sink.   Thoroughly dry the rods, e.g., with a towel.  Next, you'll need some sort of household lubricating oil.  Good types of oils to use included 3 in 1 oil, a drop of (new, clean) motor oil, baby oil, mineral oil, gun oil, or Vaseline (petroleum jelly). (Cooking and other plant oils are not generally suitable as they tend to dry out and become sticky.)    Coat the rods with a very thin layer of the oil.  To do so, put a drop (or small blob, in the case of Vaseline) on a towel or paper towel, and rub that over the surfaces of the rods.  They should not be dripping with oil, but instead have just a light sheen on the surfaces.    When re-installing the rods on the WaterColorBot, make sure that your hands are clean of oil before touching the wooden parts.</li></ul>
+<ul><li> If you need to reassure yourself that the rods move smoothly through the carriage....
+<ul><li> If the carriage is presently installed on the robot, first move the carriage to the home corner, and make sure that all four rod-end sliders line up evenly against their stops.  Then, (with power disconnected) turn the two winches like knobs, to drive the carriage to the opposite corner, making sure that the motion is smooth.</li>
+<li> If the carriage is not presently installed on the robot, try sliding each rod through the carriage, to see if the motion is smooth.</li></ul></li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Painting_quality_issues">Painting quality issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=24" title="Edit section: Painting quality issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Paintings_are_sloppy:_Poor_reproducibility">Paintings are sloppy: Poor reproducibility</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=25" title="Edit section: Paintings are sloppy: Poor reproducibility">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>When properly set up, the WaterColorBot is capable of making one painting after another with remarkably fine reproducibility between copies.  
+</p>
+<ul><li> Check that brush is tight in holder (this matters much more than you think!)</li>
+<li> Check that string is not too loose - it may need to be tightened after its initial stretching</li>
+<li> Check that rods are perpendicular</li>
+<li> Check that paper is held tightly in place. </li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Paintings_are_sloppy:_Too_much_water">Paintings are sloppy: Too much water</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=26" title="Edit section: Paintings are sloppy: Too much water">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li> Put less water in the water dishes</li>
+<li> Change brush position so that it does not dip into water as far</li>
+<li> If you are painting in a mode that performs a water dip after getting paint, turn off that mode.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Painted_image_is_distorted_at_edges">Painted image is distorted at edges</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=27" title="Edit section: Painted image is distorted at edges">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If your drawing calls for the brush to move past the edge of the page, it may end up distorted when the carriage changes trajectory to stay within the bounds of the page (especially when painting from within Inkscape).    The solution is to check your drawing, and ensure that it fits entirely within the printable area of the WaterColorBot. 
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Paper_is_warping_when_it_gets_wet">Paper is warping when it gets wet</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=28" title="Edit section: Paper is warping when it gets wet">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Paper tends to warp as it gets wet, particularly with uneven wetting and lower grades of paper.  Methods of dealing with this include pre-wetting and stretching paper, as well as holding paper down with tape or in blocks. Watercolor painting is an old art, and people have been solving these problems for hundreds of years; you may want to read up on the subject online or in books. 
+</p><p>One of the most common methods of dealing with warping is to paint on a "wet canvas" (really, wet paper).  If doing so, you may prefer to use the PVC plastic spoilboard (available <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/component/content/article/658">here</a>), rather than the wooden one.
+</p>
+<h2><span class="mw-headline" id="Spare_and_replacement_parts">Spare and replacement parts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=29" title="Edit section: Spare and replacement parts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Something_broke.21_Help.21">Something broke!  Help!</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=30" title="Edit section: Something broke! Help!">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Please use the Evil Mad Scientist <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/contact">contact form</a>, and let us know how we can help.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Purchasing_spare_parts_.28for_replacement_or_for_hacking.29">Purchasing spare parts (for replacement or for hacking)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=31" title="Edit section: Purchasing spare parts (for replacement or for hacking)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Replacements and spare parts for every component of the WaterColorBot are available.  Not everything is listed on the web site, so please use the Evil Mad Scientist <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/contact">contact form</a>, and let us know how we can help.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Spills">Spills</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=32" title="Edit section: Spills">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="I_spilled_paint.2Fdirty_water_on_my_spoilboard.2C_now_it.27s_covered_with_ink.21">I spilled paint/dirty water on my spoilboard, now it's covered with ink!</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=33" title="Edit section: I spilled paint/dirty water on my spoilboard, now it's covered with ink!">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This happens; it's okay.  Let it dry. Everything will be fine, and it will have more character in the morning.  (There is a <i>reason</i> that it's called the spoilboard....)
+</p><p>If your spoilboard has taken too much abuse, replacements are available from Evil Mad Scientist.  (Coming soon to the web store-- please use the <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/contact">contact form</a> in the mean time.)
+</p><p><br /> 
+</p>
+<h3><span class="mw-headline" id="I_spilled_paint.2Fdirty_water_on_my_WaterColorBot_Frame.2C_now_it.27s_blue.21">I spilled paint/dirty water on my WaterColorBot Frame, now it's blue!</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=34" title="Edit section: I spilled paint/dirty water on my WaterColorBot Frame, now it's blue!">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Do the best that you can to wipe up the paint or water while it's wet, either with towels, napkins, or paper towels.  Let the frame dry thoroughly and evaluate the damage (if any).  You may want to sand affected areas lightly, especially the inner grooves where the rod ends slide, if the grain of the wood has been raised by the water.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="I_spilled_water_on_my_EBB.21">I spilled water on my EBB!</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=35" title="Edit section: I spilled water on my EBB!">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Umm... please don't do that.   
+</p><p>Unplug it from power and USB, remove all the water as best you can, and let it dry for a couple of days.  The "classic" trick of letting it dry in a container with dry rice is a pretty good idea. 
+</p><p>At absolute worst, replacements <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/productsmenu/partsmenu/188-ebb">are available for purchase</a>.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="I_spilled_water_on_my_motors.21">I spilled water on my motors!</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=36" title="Edit section: I spilled water on my motors!">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>We've never actually seen this happen, but it is bound to happen someday.  We certainly do not recommend experimental tests of this situation.
+What we can suggest is to unplug the EBB from power and USB-- as soon as possible --remove all the water as best you can, and let it dry for a couple of days.  
+</p><p>At absolute worst, replacements <a rel="nofollow" class="external text" href="http://shop.evilmadscientist.com/productsmenu/partsmenu/187-stepper">are available for purchase</a>.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="When_Robots_Attack">When Robots Attack</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=37" title="Edit section: When Robots Attack">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Runaway_WaterColorBot_.28on_its_way_to_destroy_Tokyo....29">Runaway WaterColorBot (on its way to destroy Tokyo...)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=38" title="Edit section: Runaway WaterColorBot (on its way to destroy Tokyo...)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If you need to halt painting for any reason, there are gentle ways to do so, depending on which environment you are painting from:
+</p>
+<ul><li> In RoboPaint RT, press the <b>PAUSE</b> button to halt painting. </li>
+<li> In RoboPaint, press the <b>PAUSE</b> button to halt painting. </li>
+<li> When painting from Inkscape, press the <b>PRG</b> button on the EBB to pause a plot in progress.</li></ul>
+<p><br />
+No matter what environment you are plotting from, any of the following actions will also stop a plot in progress:
+</p>
+<ul><li> Disconnecting power from the EBB by pulling out the cable from the power supply</li>
+<li> Disconnecting power from the EBB by unplugging the power supply from the wall</li>
+<li> Unplugging the USB cable from the EBB</li>
+<li> Pressing the <b>RST</b> (reset) button on the EBB.</li></ul>
+<h3><span class="mw-headline" id="I.27m_concerned_about_using_the_WaterColorBot_around_young_children">I'm concerned about using the WaterColorBot around young children</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=39" title="Edit section: I'm concerned about using the WaterColorBot around young children">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Well, so are we!  The WaterColorBot is not designed to be operated by young, unattended children. There's water and paint that can get spilled, and potentially pinch points around the winches and where the carriage moves.  If the latter is your concern, you might consider turning down the EBB current, so that motion stops more readily when interrupted.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Media_Issues">Media Issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=40" title="Edit section: Media Issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Can.27t_find_exact_replacement_paints">Can't find exact replacement paints</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=41" title="Edit section: Can't find exact replacement paints">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>No worries. We are compiling a list of other brands of watercolor paint palettes that can be used with the WaterColorBot, that fit in the cutout of the standard spoilboard.    A better solution is often to use tube-based watercolors in the existing (Crayola) palette.  Tube based colors are easy to find and available in a wide range of grades.
+</p><p>See our <a href="/WaterColorBot_Paints" title="WaterColorBot Paints">Paints</a> page for more information.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Can.27t_find_exact_replacement_paper">Can't find exact replacement paper</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=42" title="Edit section: Can't find exact replacement paper">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>No worries.  The WaterColorBot works with a wide range of paper qualities and sizes, including US letter and A4.
+</p><p>See our <a href="/WaterColorBot_Paper" title="WaterColorBot Paper">Paper</a> page for more information.
+</p>
+<h2><span class="mw-headline" id="International_Issues">International Issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=43" title="Edit section: International Issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Can_the_power_supply_run_on_Europe_voltage.3F">Can the power supply run on Europe voltage?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=44" title="Edit section: Can the power supply run on Europe voltage?">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Yes.  The power supply included with the WaterColorBot works with worldwide voltages.  You will need a plug-shape adapter to run in certain countries, but it does not need to adapt the voltage.
+</p><p><br />
+</p><p><br />
+</p><p><br />
+</p><p><br />
+</p><p><br />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="New_sections.2C_yet_to_be_added">New sections, yet to be added</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit&amp;section=45" title="Edit section: New sections, yet to be added">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>- Cable guide catches on the rivet on the upper right (near point G) 
+</p><p>- Brush catches on edge of water dish or paint pans
+</p>
+<ul><li> Adjust brush height</li></ul>
+<p>- Brush isn't washing very well
+</p>
+<ul><li> Adjust brush height</li></ul>
+<p><br />
+- Failing to actually dip into the water, to re-wet the brush. 
+</p>
+<ul><li> Adjust brush height</li>
+<li> Change raise/lower duration; Allow longer period of time for brush to move up and down
+<ul><li> In Robopaint: Settings &gt; Basic Settings &gt; Duration</li></ul></li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20260302194354
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.007 seconds
+Real time usage: 0.007 seconds
+Preprocessor visited node count: 184/1000000
+Preprocessor generated node count: 198/1000000
+Post‐expand include size: 414/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.922      1 - Template:WaterColorBotDocs
+100.00%    0.922      1 - -total
+-->
+
+<!-- Saved in parser cache with key emswiki:pcache:idhash:254-0!*!0!!en!*!* and timestamp 20260302194354 and revision id 2361
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.evilmadscientist.com/index.php?title=WaterColorBot_Troubleshooting&amp;oldid=2361">https://wiki.evilmadscientist.com/index.php?title=WaterColorBot_Troubleshooting&amp;oldid=2361</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=WaterColorBot+Troubleshooting" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/WaterColorBot_Troubleshooting"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk"><span><a href="/Talk:WaterColorBot_Troubleshooting"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/WaterColorBot_Troubleshooting" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Evil Mad Scientist Wiki" title="Search Evil Mad Scientist Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Project_Documentation' aria-labelledby='p-Project_Documentation-label'>
+			<h3 id='p-Project_Documentation-label'>Project Documentation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Alpha-Clock-Five"><a href="/Alpha_Clock_Five">Alpha Clock Five</a></li><li id="n-Art-Controller"><a href="/Art_Controller">Art Controller</a></li><li id="n-AYAB-Interface"><a href="/AYAB_Interface">AYAB Interface</a></li><li id="n-AxiDraw"><a href="/AxiDraw">AxiDraw</a></li><li id="n-The-Bulbdial-Clock-Kit"><a href="/Bulbdial">The Bulbdial Clock Kit</a></li><li id="n-Diavolino"><a href="/Diavolino">Diavolino</a></li><li id="n-EggBot"><a href="/The_Original_Egg-Bot_Kit">EggBot</a></li><li id="n-Googly-Eye-Shield"><a href="/Googly_Shield">Googly Eye Shield</a></li><li id="n-Interactive-Game-of-Life"><a href="/Life">Interactive Game of Life</a></li><li id="n-ISP-Shield"><a href="/ISP_Shield">ISP Shield</a></li><li id="n-Larson-Scanner"><a href="/Larson_Scanner">Larson Scanner</a></li><li id="n-LED-Menorah"><a href="/Deluxe_LED_Menorah_Kit">LED Menorah</a></li><li id="n-Meggy-Jr-RGB"><a href="/Meggy_Jr_RGB">Meggy Jr RGB</a></li><li id="n-Octolively"><a href="/Octolively">Octolively</a></li><li id="n-Peggy-2-and-2LE"><a href="/Peggy_2">Peggy 2 and 2LE</a></li><li id="n-Simple-Relay-Shield"><a href="/Simple_Relay_Shield">Simple Relay Shield</a></li><li id="n-Snap-O-Lantern"><a href="/Snap-O-Lantern">Snap-O-Lantern</a></li><li id="n-StippleGen-Software"><a href="/StippleGen">StippleGen Software</a></li><li id="n-Discrete-555-kits"><a href="/555">Discrete 555 kits</a></li><li id="n-Discrete-741-kits"><a href="/741">Discrete 741 kits</a></li><li id="n-WaterColorBot"><a href="/WaterColorBot">WaterColorBot</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Evil-Mad-Science-shop"><a href="http://evilmadscience.com/" rel="nofollow">Evil Mad Science shop</a></li><li id="n-Evil-Mad-Scientist-blog"><a href="http://www.evilmadscientist.com/" rel="nofollow">Evil Mad Scientist blog</a></li><li id="n-Wiki-help"><a href="http://www.mediawiki.org/wiki/Help:Contents">Wiki help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/WaterColorBot_Troubleshooting" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/WaterColorBot_Troubleshooting" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;oldid=2361" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=WaterColorBot_Troubleshooting&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 19 November 2014, at 04:51.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/Evil_Mad_Scientist_Wiki:Privacy_policy" title="Evil Mad Scientist Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/Evil_Mad_Scientist_Wiki:About" title="Evil Mad Scientist Wiki:About">About Evil Mad Scientist Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Evil_Mad_Scientist_Wiki:General_disclaimer" title="Evil Mad Scientist Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://www.gnu.org/copyleft/fdl.html"><img src="/resources/assets/licenses/gnu-fdl.png" alt="GNU Free Documentation License 1.3" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":22});});</script>
+	</body>
+<!-- Cached 20260303003941 -->
+</html>

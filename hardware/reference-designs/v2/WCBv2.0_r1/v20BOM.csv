@@ -1,0 +1,61 @@
+line,Orig Bom Line,Stock#,Description,Location,Usage,kit bag,upgrade bag,Manf.,Model,supplier/ Equiv.,item#,Kit qty,EMS PN,Qty
+1,,,WCB 2 Chassis (North),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0051,1
+2,,,WCB 2 Chassis (East),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0052,1
+3,,,WCB 2 Chassis (South),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0053,1
+4,,,WCB 2 Chassis (West),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0054,1
+5,,,WCB Foot (West),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0055,2
+6,,,WCB Foot (East),Main Chassis,,,,Custom Fab,"plywood, 1/2Ó",EvilMadScientist,,,61-0056,2
+7,,,"Screw #10x1Ó Flathead wood, high strength",Main Chassis,Bolt chassis together,,,,,McMaster,91550A247,,52-0052,8
+8,18,40-0001,Stepper Motor,Main Chassis,,Steppers,0,EvilMadScientist,,Japan Servo,KH42HM2-951,2,40-0001,2
+9,,,"Spiral wrap, 3/16Ó OD x 6Ó segment",Motor/chassis,,,,Custom Fab,,HSC,CSW316,,61-0063,2
+10,14,91-0002,EiBotBoard v. 2.0 by Schmalzhaus.com,Main Chassis,,EBB,0,Seeed,,Sparkfun,,1,91-0002,1
+11,17,51-0006,"Nylon spacer, #4 x 3/16Ó",Main Chassis,EBB Spacer,hardware,0,,,McMaster-Carr,94639A704,5,51-0006,4
+12,,,"Solid Rivet 1/8x3/4Ó Csink,18-8SS",Main Chassis,Pulley,,,,,McMaster,97388A181,,51-0065,8
+13,,,Ball Bearing V624ZZ,Main Chassis,,,,Generic,,,,,51-0061,8
+14,,,"Washer, SS, 1/8Ó ID, .250 OD",Main Chassis,Washer under bearings,,,,,McMaster,98019A309,,51-0044,16
+15,,,"Solid Rivet 1/8x1Ó Flat head,18-8SS",Main Chassis,End-stop for moving parts,,,,,McMaster,97386A183,,51-0041,7
+16,,,"Solid Rivet 1/8x3/4Ó Flat head,18-8SS",Main Chassis,End-stop for moving parts,,,,,McMaster,97386A181,,51-0040,1
+17,b,51-0026,"#4x1/2Ó PPH Screw, 18-8 SS",Main Chassis,"EBB (4), cable support (2)",plunger,plunger,,,McMaster,92470A110,2,52-0051,6
+18,20,52-0029,"Screw, M3x10 PPH, Zinc (for motors)",Main Chassis,Motor hold-down,hardware,hardware,,,McMaster,92005A120,8,52-0084,8
+19,,,Cable Guide Support,Main Chassis,,,,Custom Fab,"plywood, 1/4Ó",,,,61-0107,1
+20,,,"Screw, #2 x 1/4Ó Truss Head, 18-8SS",Chassis,Cable Guide support top,,,,,McMaster,93406A071,,52-0053,4
+21,,,Winch Base (aluminum),Winch,,,,Custom Fab,,EvilMadScientist,,,61-0094,2
+22,,,"Set Screw, 10-32 x 1/4Ó, 18-8 SS",Winch,Clamp,,,,,McMaster,92311A425,,52-0058,2
+23,,,"Solid Rivet 1/8x3/8Ó Flat head, 18-8 SS",Winch,"String management, winch",,,,,McMaster,97386A175,,51-0057,4
+24,,,"SHCS 4-40x 3/16Ó, 18-8 SS",Winch,Clamp,,,,,McMaster,92196A105,,52-0064,4
+25,,,Hinge Washer,"Winch, carriage","1/winch, 3 on carriage",,,,,EvilMadScientist,,,61-0085,5
+26,,,"Spectra Line, 100 Lb test (125 in/10.4 ft)",Winch,,,,,,http://goodwinds.com,,,61-0065,2
+27,,,Bead,Winch,Retain Spectra Cord,,,,,McMaster,91239A111,,61-0101,2
+28,,,Delrin Slider (Rod end guide) 6mm ,moving parts,,,,Custom Fab,"Delrin, 1/4Ó",,,,61-0062,4
+29,,,"Shaft, 6mm x 450mm",moving parts,,,,,,,,,61-0060,1
+30,,,"Shaft, 6mm  x 11.035Ó",moving parts,,,,Custom Fab,,,,,61-0061,1
+31,,,Carriage: Bearing mount,Carriage,,,,Custom Fab,,,,,61-0099,1
+32,,,"Ball bushing, LM6UU",Carriage,,,,Generic,,,,,51-0063,4
+33,,,Carriage: Wrap plate,Carriage,,,,Custom Fab,,,,,61-0096,1
+34,31,40-0003,"Servo motor, 9g standard type",Carriage,,servo,0,Generic,9g standard,,,1,40-0003,1
+35,h,23-0005,"Servo extension cable, 36Ó",Carriage,,couplers,couplers,Generic,,,,1,23-0010,1
+36,,,Carriage: Vertical Strut,Carriage,,,,Custom Fab,,,,,61-0095,1
+37,,,Carriage: Brush holder,Carriage,,,,Custom Fab,,,,,61-0098,1
+38,30,52-0018,"Thumbscrew, nylon, 6-32 x 1/2",Carriage,Pen holder,pen arm,0,,,McMaster,94320A249,1,52-0018,1
+39,,,Flexure hinge (Flex PCB),Carriage,,,,Custom Fab,Flex PCB,EvilMadScientist,,,60-0037,2
+40,,,Servo Actuator Wire,Carriage,,,,Custom Fab,1/32Ó SS,EvilMadScientist,,,61-0108,1
+41,,,"Screw, 2-56x3/16 PFHS",Carriage,,,,,,McMaster-Carr,90273A050,,52-0085,2
+42,,,"Screw, Taptite, 2-56x3/16 Zinc",Carriage,Various carriage,,,,,,,,52-0073,16
+43,,,"Nut, 2-56 hex, zinc",Carriage,,,,,,,90480A003,,52-0086,10
+44,,,Cable Guide,moving parts,,,,Custom Fab,.025 delrin,,,,61-0064,1
+45,,,"Cable ties, 4Ó, black","Carriage, chassis",hold down servo cable,,,Digi-Key,RP202C-ND,McMaster-Carr,7130K52,,52-0002,5
+46,11,51-0005,"Spoilboard, MDF",Spoilboard,,plunger,plunger,Custom Fab,"MDF, 3/8Ó",,,2,61-0057,1
+47,,,Binder Clip,Spoilboard,Hold down for paper,,,,,,,,79-0002,2
+48,,,"Screw, #6 x 1/4Ó Truss Head, 18-8SS",Spoilboard,Binder Clip Hold-down screw,,,,,McMaster,93406A144,,52-0055,2
+49,33,80-0004,"Power Supply, 9 V 1.5A, UL listed",Accessory,,power supply,0,generic,,,,1,80-0004,1
+50,34,23-0001,USB Cable,Accessory,,usb cable,0,Generic,,,,1,23-0001,1
+51,35,53-0005,"Paint set, Crayola washable 8",Accessory,,sharpie,0,Crayola,,,,1,53-0009,1
+52,,,"WaterColor Paper, 90 Lb., 9 x 12Ó Sheet",Accessory,,,,Canson,,Dick Blick,10081-1023,,59-0008,5
+53,,,"Envelope, 10x13Ó Kraft",Accessory,for watercolor paper,,,,,Uline,S-10378,,71-0028,1
+54,24,61-0014,"Petri dish, polypropylene",Accessory,,pen arm,0,,,Ted Pella,36135-5,1,59-0005,3
+55,,,"Beaker, 50 mL, polypropylene",Accessory,,,,,,Ted Pella,12902,,59-0006,1
+56,,,"Pipette (dropper) 3 mL, polyethylene",Accessory,,,,,,Ted Pella,2263-1,,59-0007,1
+57,j,,"Sand paper square, 600 grit",Accessory,,chassis,chassis,Custom Fab,,McMaster,,1,53-0010,1
+58,,,Envelope for sandpaper #10,Accessory,,,,,,Uline,,,71-0027,1
+59,,,Shipping straps - Velcro,Accessory,,,,Velcro,90924,,,,54-0004,2
+,,,,,,,,,,,,,,

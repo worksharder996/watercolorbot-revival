@@ -1,0 +1,101 @@
+[
+  {
+    "path": "controller/ebb-hardware/EBB_v21.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v21/EBB_v21.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v21/EBB_v21.zip",
+    "bytes": 405424,
+    "sha256": "1df7f2ca584263c1931d4277d399a140836455c3822687f1ab65aefa82495920",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:30.566964+00:00"
+  },
+  {
+    "path": "controller/ebb-hardware/EBB_v22.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v22/EBB_v22.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v22/EBB_v22.zip",
+    "bytes": 2107154,
+    "sha256": "669b7f0a237396a454c369435499c78bc45f3b375628dc8df51caf65de2db4bd",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:31.553543+00:00"
+  },
+  {
+    "path": "controller/ebb-hardware/EBB_v23.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v23/EBB_v23.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v23/EBB_v23.zip",
+    "bytes": 812356,
+    "sha256": "249b5decd74839f906d58e2ba65cff90183af63fb38d70d8c1fc5aeaaf542c29",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:32.345512+00:00"
+  },
+  {
+    "path": "controller/ebb-hardware/EBB_v25.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v25/EBB_v25.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v25/EBB_v25.zip",
+    "bytes": 1624858,
+    "sha256": "8fe190c470e9529e472af44aac21289a52913e46a41140b02d67db6a368cf1f7",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:33.231077+00:00"
+  },
+  {
+    "path": "controller/ebb-hardware/EBB_v26.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v26/EBB_v26.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v26/EBB_v26.zip",
+    "bytes": 1932122,
+    "sha256": "44d9b29acac487ef16a02da57d1f9134c05d7dd29731d0bb9653074a91c91859",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:34.176798+00:00"
+  },
+  {
+    "path": "controller/ebb-hardware/EBB_v27.zip",
+    "source_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v27/EBB_v27.zip",
+    "final_url": "https://www.schmalzhaus.com/EBB/EBB/EBB_v27/EBB_v27.zip",
+    "bytes": 2152690,
+    "sha256": "398eb11952ac7a9912ce54c2a200de6126d40665dab37e062ef1e6b4890a71c7",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:35.137749+00:00"
+  },
+  {
+    "path": "controller/ebb-firmware/EBF_v254.zip",
+    "source_url": "https://github.com/evil-mad/EggBot/raw/master/EBB_firmware/Releases/app/EBF_v254.zip",
+    "final_url": "https://raw.githubusercontent.com/evil-mad/EggBot/master/EBB_firmware/Releases/app/EBF_v254.zip",
+    "bytes": 49635,
+    "sha256": "023289bb4319a6e7018353c923f107ee9bb036c839a8ad04b5c0bac0466dca9d",
+    "content_type": "application/zip",
+    "retrieved_utc": "2026-11-08T23:34:35.813538+00:00"
+  },
+  {
+    "path": "docs/controller/EBB_main.html",
+    "source_url": "https://www.schmalzhaus.com/EBB/",
+    "final_url": "https://www.schmalzhaus.com/EBB/",
+    "bytes": 20866,
+    "sha256": "a47a3226aa6bb02c1f878d42e88e8becb22b448cba3b834d45e46b41d79a9b0c",
+    "content_type": "text/html",
+    "retrieved_utc": "2026-11-08T23:34:36.435618+00:00"
+  },
+  {
+    "path": "docs/controller/EBB_commands_current.html",
+    "source_url": "https://evil-mad.github.io/EggBot/ebb.html",
+    "final_url": "https://evil-mad.github.io/EggBot/ebb.html",
+    "bytes": 257850,
+    "sha256": "4bb7b1e728e237c9beb7252818bbf8156a536a1b3fe5a94f3214dfbbbfd4ba31",
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_utc": "2026-11-08T23:34:36.652931+00:00"
+  },
+  {
+    "path": "docs/controller/EBB_commands_legacy.html",
+    "source_url": "https://evil-mad.github.io/EggBot/ebb2.html",
+    "final_url": "https://evil-mad.github.io/EggBot/ebb2.html",
+    "bytes": 193816,
+    "sha256": "fe2ff20a0e5aecc3bf89bebb5c9605d9917a0ce3ce9f9dc2eeb896cc223cdd07",
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_utc": "2026-11-08T23:34:36.839173+00:00"
+  },
+  {
+    "path": "docs/controller/EBB_release_notes.html",
+    "source_url": "https://evil-mad.github.io/EggBot/EBBReleaseNotes.html",
+    "final_url": "https://evil-mad.github.io/EggBot/EBBReleaseNotes.html",
+    "bytes": 28427,
+    "sha256": "4f0d7a1cc8d76d205d111a46a3449277628645b0c18c9fb1bb188a199aa5e891",
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_utc": "2026-11-08T23:34:36.996442+00:00"
+  }
+]
