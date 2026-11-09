@@ -50,6 +50,8 @@ Core upstreams include:
 - [`evil-mad/WaterColorBlocks`](https://github.com/evil-mad/WaterColorBlocks) — Scratch/Snap examples
 - [`evil-mad/EggBot`](https://github.com/evil-mad/EggBot) — EBB firmware and protocol sources
 - [`sparkfun/EiBotBoard`](https://github.com/sparkfun/EiBotBoard) — controller-board design source
+- [`jrheard/madison_wcb`](https://github.com/jrheard/madison_wcb) — Python WaterColorBot controller
+- [`jmpinit/ebb-control`](https://github.com/jmpinit/ebb-control) — JavaScript EBB wrapper
 
 ## Modern commercial successor
 
@@ -68,3 +70,9 @@ Before purchasing parts, create a clean-sheet CAD model and a verified BOM for o
 ## Preservation integrity
 
 Download manifests include source URL, final URL, byte count, retrieval timestamp, and SHA-256 checksum. The preserved archives are kept alongside extracted copies so later changes can be audited.
+
+Run the local integrity check after cloning:
+
+```bash
+python3 scripts/verify_archive.py
+```

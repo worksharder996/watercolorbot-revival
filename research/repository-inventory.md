@@ -15,6 +15,9 @@ Research date: 2026-11-08.
 | `evil-mad/robopaint-mode-edit` | `worksharder996/robopaint-mode-edit` | SVG import/edit mode | MIT |
 | `evil-mad/robopaint-mode-remote` | `worksharder996/robopaint-mode-remote` | remote SVG print API/mode | MIT |
 | `techninja/cncserver` | `worksharder996/cncserver` | REST/Socket.IO EBB bridge | MIT stated in metadata; no root license |
+| `evil-mad/EggBot` | `worksharder996/EggBot` | EBB firmware, releases, and protocol source | GPL-3.0 |
+| `jrheard/madison_wcb` | `worksharder996/madison_wcb` | community Python WaterColorBot library | MIT |
+| `jmpinit/ebb-control` | `worksharder996/ebb-control` | JavaScript EBB wrapper | MIT |
 
 These are GitHub forks, so their upstream relationships and history are preserved.
 
@@ -22,10 +25,7 @@ These are GitHub forks, so their upstream relationships and history are preserve
 
 | Repository | Role | Observed license |
 |---|---|---|
-| `evil-mad/EggBot` | current EBB firmware source, releases, protocol docs | GPL-3.0 |
 | `sparkfun/EiBotBoard` | EBB board design source including v2.4 branch | no root license detected |
-| `jrheard/madison_wcb` | Python WaterColorBot library | MIT |
-| `jmpinit/ebb-control` | JavaScript EBB wrapper | MIT |
 | `techninja/etch-a-bits` | physical/manual controller example via CNCServer | inspect before reuse |
 | `beardicus/awesome-plotters` | curated plotter project list | inspect before reuse |
 | `evil-mad/axidraw` | related modernized plotter software lineage | GPL-2.0 |
@@ -34,7 +34,7 @@ These are GitHub forks, so their upstream relationships and history are preserve
 | `techninja/robopaint-mode-spiral` | historical spiral/raster mode | no detected license |
 | `techninja/robopaint-mode-stipple` | historical Voronoi/stipple mode | inspect before reuse |
 
-GitHub anti-abuse throttling stopped the first preservation pass after the nine core forks above. The remaining repositories are recorded here and can be forked later without losing the research archive.
+GitHub anti-abuse throttling stopped the first preservation pass after nine core forks. A later verified pass added EggBot, `madison_wcb`, and `ebb-control`. The remaining repositories are recorded here and can be reviewed for preservation without losing the research archive.
 
 ## Source scans
 
